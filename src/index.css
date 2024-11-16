@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: anzo0;
+  src: url(./assets/font/file.woff2);
+}
+@font-face {
+  font-family: anzo1;
+  src: url(./assets/font/file1.woff2);
+}
+@font-face {
+  font-family: anzo2;
+  src: url(./assets/font/file2.woff2);
+}
+@font-face {
+  font-family: anzo3;
+  src: url(./assets/font/file3.woff2);
+}
+@font-face {
+  font-family: anzo4;
+  src: url(./assets/font/file4.woff2);
+}
+@font-face {
+  font-family: anzo5;
+  src: url(./assets/font/madefor.woff2);
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: white;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+#page1{
+   position: relative;
+}
+
+#page1-in{
+  position:relative;
+  perspective:1500px;
+}
+#se2{
+  position:relative;
+  perspective:1500px;
+}
+#se22{
+  position:relative;
+  perspective:1500px;
+}
+#tiltDiv{
+  width:fit-content;
+}
+.p2h3{
+  transform-origin:100% 70%;
+}
+.p2h33{
+  transform-origin:100% 70%;
+}
+/* #p2DI{
+   background-color:red;
+   position:absolute;
+   aspect-ratio:2/2;
+   object-fit:contain;
+   mix-blend-mode:color-burn;
+} */
+
+#tasklist::-webkit-scrollbar{
+  display:none;
+
+}
