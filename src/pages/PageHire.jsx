@@ -6,7 +6,7 @@ const PageHire=()=>{
     <div className=' relative h-[102vh] w-full p-2 mt-[-16vh] ml-[-80vw] bg-white'>
        
         
-    <div className=' absolute p-4 h-[96vh] w-[96vw] bg-[url("./public/vB.png")] bg-cover bg-center rounded-[50px]'>
+    <div className=' absolute p-4 h-[96vh] w-[96vw] bg-[url("./public/vB.webp")] bg-cover bg-center rounded-[50px]'>
     <img className='imv h-18 p-10  '
       src="https://static.wixstatic.com/media/f1c650_35a00b1fe6ce403eb237970ec8d34f79~mv2.png/v1/fill/w_99,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Frame%2053.png" 
       alt="" />    

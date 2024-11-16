@@ -44,7 +44,7 @@ const Page1 = () => {
       }}
         className={`relative px-6 py-4 h-[125vh] w-full bg-white ${windowWidth < 768 ? 'px-2' : 'px-6'}`}>
         <div id="page1-in" className={`relative p-16 shadow-xl shadow-gray-700 rounded-[20px] h-[120vh]  bg-cover bg-center   
-       bg-[url('./public/Vinay.png')] ${windowWidth < 768 ? 'p-8' : 'p-16'}`}>
+       bg-[url('./public/Vinay.webp')] ${windowWidth < 768 ? 'p-8' : 'p-16'}`}>
           <img className={`imv h-[20vh]  ${windowWidth < 768 ? 'h-12' : 'h-18'}`}
             src="https://static.wixstatic.com/media/f1c650_35a00b1fe6ce403eb237970ec8d34f79~mv2.png/v1/fill/w_99,h_99,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Frame%2053.png"
             alt="" />
